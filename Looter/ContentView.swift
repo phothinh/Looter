@@ -7,24 +7,30 @@
 
 import SwiftUI
 
+class Inventory: ObservableObject {
+    @Published var loot = ["Epée", "Bouclier", "Armure"]
+    
+    func addLoot(item: String) {
+        loot.append(item)
+    }
+}
+
 struct ContentView: View {
-    @State var loot = ["Epée", "Bouclier", "Armure"]
+    @StateObject var inventory = Inventory()
+    
     @State var showAddItemView: Bool = false
 
-    func addLoot() {
-        loot.append("Magie de feu")
-    }
     
     var body: some View {
         NavigationStack {
             List {
                 Button(action: {
-                    addLoot()
+                    inventory.addLoot(item: "Magie de feu")
                 }, label: {
                     Text("Ajouter")
                 })
 
-                ForEach(loot, id: \.self) { item in
+                ForEach(inventory.loot, id: \.self) { item in
                     Text(item)
                 }
             }.navigationBarTitle("Loot") // Notre titre de page, choisissez le titre que vous voulez
@@ -38,7 +44,7 @@ struct ContentView: View {
                     }
                 })
             .sheet(isPresented: $showAddItemView, content: {
-                AddItemView()
+                AddItemView().environmentObject(inventory)
             })
         }
     }

@@ -13,6 +13,8 @@ enum Rarity: CaseIterable {
 
 struct AddItemView: View {
     @State var name: String = ""
+    @EnvironmentObject var inventory: Inventory
+    @Environment(\.presentationMode) var presentationMode
     @State var rarity: Rarity = .common
     
     var body: some View {
@@ -26,7 +28,10 @@ struct AddItemView: View {
                 }
             }
             Section {
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {
+                    inventory.addLoot(item: name)
+                    presentationMode.wrappedValue.dismiss()
+                }, label: {
                     Text("Ajouter")
                 })
             }
