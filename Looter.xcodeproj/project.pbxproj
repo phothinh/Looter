@@ -14,6 +14,7 @@
 		069B12142B4E91A90058C22C /* LooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B12132B4E91A90058C22C /* LooterTests.swift */; };
 		069B121E2B4E91A90058C22C /* LooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B121D2B4E91A90058C22C /* LooterUITests.swift */; };
 		069B12202B4E91A90058C22C /* LooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B121F2B4E91A90058C22C /* LooterUITestsLaunchTests.swift */; };
+		069B122D2B4E9AA90058C22C /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B122C2B4E9AA90058C22C /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		069B12192B4E91A90058C22C /* LooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069B121D2B4E91A90058C22C /* LooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterUITests.swift; sourceTree = "<group>"; };
 		069B121F2B4E91A90058C22C /* LooterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		069B122C2B4E9AA90058C22C /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		069B11F62B4E91A00058C22C = {
 			isa = PBXGroup;
 			children = (
+				069B122C2B4E9AA90058C22C /* AddItemView.swift */,
 				069B12012B4E91A00058C22C /* Looter */,
 				069B12122B4E91A90058C22C /* LooterTests */,
 				069B121C2B4E91A90058C22C /* LooterUITests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				069B12052B4E91A00058C22C /* ContentView.swift in Sources */,
+				069B122D2B4E9AA90058C22C /* AddItemView.swift in Sources */,
 				069B12032B4E91A00058C22C /* LooterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
