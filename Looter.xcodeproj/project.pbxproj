@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069B12032B4E91A00058C22C /* LooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B12022B4E91A00058C22C /* LooterApp.swift */; };
+		069B12052B4E91A00058C22C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B12042B4E91A00058C22C /* ContentView.swift */; };
+		069B12072B4E91A30058C22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069B12062B4E91A30058C22C /* Assets.xcassets */; };
+		069B120A2B4E91A30058C22C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069B12092B4E91A30058C22C /* Preview Assets.xcassets */; };
+		069B12142B4E91A90058C22C /* LooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B12132B4E91A90058C22C /* LooterTests.swift */; };
+		069B121E2B4E91A90058C22C /* LooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B121D2B4E91A90058C22C /* LooterUITests.swift */; };
+		069B12202B4E91A90058C22C /* LooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B121F2B4E91A90058C22C /* LooterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		069B12102B4E91A80058C22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 069B11F72B4E91A00058C22C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 069B11FE2B4E91A00058C22C;
+			remoteInfo = Looter;
+		};
+		069B121A2B4E91A90058C22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 069B11F72B4E91A00058C22C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 069B11FE2B4E91A00058C22C;
+			remoteInfo = Looter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069B11FF2B4E91A00058C22C /* Looter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Looter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		069B12022B4E91A00058C22C /* LooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterApp.swift; sourceTree = "<group>"; };
+		069B12042B4E91A00058C22C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		069B12062B4E91A30058C22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		069B12092B4E91A30058C22C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		069B120F2B4E91A80058C22C /* LooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		069B12132B4E91A90058C22C /* LooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterTests.swift; sourceTree = "<group>"; };
+		069B12192B4E91A90058C22C /* LooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		069B121D2B4E91A90058C22C /* LooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterUITests.swift; sourceTree = "<group>"; };
+		069B121F2B4E91A90058C22C /* LooterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069B11FC2B4E91A00058C22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069B120C2B4E91A80058C22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069B12162B4E91A90058C22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069B11F62B4E91A00058C22C = {
+			isa = PBXGroup;
+			children = (
+				069B12012B4E91A00058C22C /* Looter */,
+				069B12122B4E91A90058C22C /* LooterTests */,
+				069B121C2B4E91A90058C22C /* LooterUITests */,
+				069B12002B4E91A00058C22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		069B12002B4E91A00058C22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069B11FF2B4E91A00058C22C /* Looter.app */,
+				069B120F2B4E91A80058C22C /* LooterTests.xctest */,
+				069B12192B4E91A90058C22C /* LooterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		069B12012B4E91A00058C22C /* Looter */ = {
+			isa = PBXGroup;
+			children = (
+				069B12022B4E91A00058C22C /* LooterApp.swift */,
+				069B12042B4E91A00058C22C /* ContentView.swift */,
+				069B12062B4E91A30058C22C /* Assets.xcassets */,
+				069B12082B4E91A30058C22C /* Preview Content */,
+			);
+			path = Looter;
+			sourceTree = "<group>";
+		};
+		069B12082B4E91A30058C22C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				069B12092B4E91A30058C22C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		069B12122B4E91A90058C22C /* LooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				069B12132B4E91A90058C22C /* LooterTests.swift */,
+			);
+			path = LooterTests;
+			sourceTree = "<group>";
+		};
+		069B121C2B4E91A90058C22C /* LooterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				069B121D2B4E91A90058C22C /* LooterUITests.swift */,
+				069B121F2B4E91A90058C22C /* LooterUITestsLaunchTests.swift */,
+			);
+			path = LooterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		069B11FE2B4E91A00058C22C /* Looter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069B12232B4E91A90058C22C /* Build configuration list for PBXNativeTarget "Looter" */;
+			buildPhases = (
+				069B11FB2B4E91A00058C22C /* Sources */,
+				069B11FC2B4E91A00058C22C /* Frameworks */,
+				069B11FD2B4E91A00058C22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Looter;
+			productName = Looter;
+			productReference = 069B11FF2B4E91A00058C22C /* Looter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		069B120E2B4E91A80058C22C /* LooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069B12262B4E91A90058C22C /* Build configuration list for PBXNativeTarget "LooterTests" */;
+			buildPhases = (
+				069B120B2B4E91A80058C22C /* Sources */,
+				069B120C2B4E91A80058C22C /* Frameworks */,
+				069B120D2B4E91A80058C22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				069B12112B4E91A80058C22C /* PBXTargetDependency */,
+			);
+			name = LooterTests;
+			productName = LooterTests;
+			productReference = 069B120F2B4E91A80058C22C /* LooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		069B12182B4E91A90058C22C /* LooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069B12292B4E91A90058C22C /* Build configuration list for PBXNativeTarget "LooterUITests" */;
+			buildPhases = (
+				069B12152B4E91A90058C22C /* Sources */,
+				069B12162B4E91A90058C22C /* Frameworks */,
+				069B12172B4E91A90058C22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				069B121B2B4E91A90058C22C /* PBXTargetDependency */,
+			);
+			name = LooterUITests;
+			productName = LooterUITests;
+			productReference = 069B12192B4E91A90058C22C /* LooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		069B11F72B4E91A00058C22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					069B11FE2B4E91A00058C22C = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					069B120E2B4E91A80058C22C = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 069B11FE2B4E91A00058C22C;
+					};
+					069B12182B4E91A90058C22C = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 069B11FE2B4E91A00058C22C;
+					};
+				};
+			};
+			buildConfigurationList = 069B11FA2B4E91A00058C22C /* Build configuration list for PBXProject "Looter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 069B11F62B4E91A00058C22C;
+			productRefGroup = 069B12002B4E91A00058C22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069B11FE2B4E91A00058C22C /* Looter */,
+				069B120E2B4E91A80058C22C /* LooterTests */,
+				069B12182B4E91A90058C22C /* LooterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		069B11FD2B4E91A00058C22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069B120A2B4E91A30058C22C /* Preview Assets.xcassets in Resources */,
+				069B12072B4E91A30058C22C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069B120D2B4E91A80058C22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069B12172B4E91A90058C22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069B11FB2B4E91A00058C22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069B12052B4E91A00058C22C /* ContentView.swift in Sources */,
+				069B12032B4E91A00058C22C /* LooterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069B120B2B4E91A80058C22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069B12142B4E91A90058C22C /* LooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069B12152B4E91A90058C22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069B121E2B4E91A90058C22C /* LooterUITests.swift in Sources */,
+				069B12202B4E91A90058C22C /* LooterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		069B12112B4E91A80058C22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 069B11FE2B4E91A00058C22C /* Looter */;
+			targetProxy = 069B12102B4E91A80058C22C /* PBXContainerItemProxy */;
+		};
+		069B121B2B4E91A90058C22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 069B11FE2B4E91A00058C22C /* Looter */;
+			targetProxy = 069B121A2B4E91A90058C22C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		069B12212B4E91A90058C22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		069B12222B4E91A90058C22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		069B12242B4E91A90058C22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Looter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.Looter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		069B12252B4E91A90058C22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Looter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.Looter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		069B12272B4E91A90058C22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.LooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Looter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Looter";
+			};
+			name = Debug;
+		};
+		069B12282B4E91A90058C22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.LooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Looter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Looter";
+			};
+			name = Release;
+		};
+		069B122A2B4E91A90058C22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.LooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Looter;
+			};
+			name = Debug;
+		};
+		069B122B2B4E91A90058C22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phothinh.LooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Looter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069B11FA2B4E91A00058C22C /* Build configuration list for PBXProject "Looter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069B12212B4E91A90058C22C /* Debug */,
+				069B12222B4E91A90058C22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069B12232B4E91A90058C22C /* Build configuration list for PBXNativeTarget "Looter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069B12242B4E91A90058C22C /* Debug */,
+				069B12252B4E91A90058C22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069B12262B4E91A90058C22C /* Build configuration list for PBXNativeTarget "LooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069B12272B4E91A90058C22C /* Debug */,
+				069B12282B4E91A90058C22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069B12292B4E91A90058C22C /* Build configuration list for PBXNativeTarget "LooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069B122A2B4E91A90058C22C /* Debug */,
+				069B122B2B4E91A90058C22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 069B11F72B4E91A00058C22C /* Project object */;
+}
