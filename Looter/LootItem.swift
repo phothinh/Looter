@@ -30,3 +30,16 @@ enum ItemType: String, CaseIterable {
     case ring = "💍"
     case unknown = "🎲"
 }
+
+extension Rarity {
+    var capitalized: String {
+        switch self {
+        case .common: return "Common"
+        case .uncommon: return "Uncommon"
+        case .rare: return "Rare"
+        case .epic: return "Epic"
+        case .legendary: return "Legendary"
+        case .unique: return "Unique"
+        }
+    }
+}

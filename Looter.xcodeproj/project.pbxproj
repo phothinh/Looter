@@ -17,6 +17,7 @@
 		069B122D2B4E9AA90058C22C /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B122C2B4E9AA90058C22C /* AddItemView.swift */; };
 		069B122F2B4EAE460058C22C /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B122E2B4EAE460058C22C /* LootItem.swift */; };
 		069B12312B4EBF8B0058C22C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B12302B4EBF8B0058C22C /* Game.swift */; };
+		BB36B07C2B6BA271009AC442 /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36B07B2B6BA271009AC442 /* LootDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		069B122C2B4E9AA90058C22C /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		069B122E2B4EAE460058C22C /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
 		069B12302B4EBF8B0058C22C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		BB36B07B2B6BA271009AC442 /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				069B12082B4E91A30058C22C /* Preview Content */,
 				069B122E2B4EAE460058C22C /* LootItem.swift */,
 				069B12302B4EBF8B0058C22C /* Game.swift */,
+				BB36B07B2B6BA271009AC442 /* LootDetailView.swift */,
 			);
 			path = Looter;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				069B12052B4E91A00058C22C /* ContentView.swift in Sources */,
 				069B12312B4EBF8B0058C22C /* Game.swift in Sources */,
 				069B122D2B4E9AA90058C22C /* AddItemView.swift in Sources */,
+				BB36B07C2B6BA271009AC442 /* LootDetailView.swift in Sources */,
 				069B122F2B4EAE460058C22C /* LootItem.swift in Sources */,
 				069B12032B4E91A00058C22C /* LooterApp.swift in Sources */,
 			);
